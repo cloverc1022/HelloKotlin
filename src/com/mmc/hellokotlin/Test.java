@@ -16,5 +16,6 @@ class Test {
         list.add(5);
 
         System.out.println(StringFunctions.joinToString(list, ",", "(", ")"));
+        System.out.println(StringFunctions.lastChar("kotlin"));
     }
 }
